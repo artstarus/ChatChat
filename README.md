@@ -1,7 +1,8 @@
 # ChatChat
 
-![Login Screenshot](/frontend/public/loginss.png)
+![Home Screenshot](/frontend/public/homess.png)
 ![Sign Up Screenshot](/frontend/public/signupss.png)
+
 
 # What is ChatChat?
 ChatChat is a chat-based web app where users may send and receive real-time-updating messages.
