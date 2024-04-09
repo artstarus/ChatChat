@@ -27,9 +27,9 @@ const SignUp = () => {
 
   return (
     <div className='flex flex-col items-center justify-center min-w-96 mx-auto'>
-        <div className='w-full p-6 rounded-lg shadow-md bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-0'>
+        <div className='w-full p-6 rounded-lg shadow-md bg-gradient-to-b from-yellow-800/50 to-blue-400/30 bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-15'>
             <h1 className='text-3xl font-semibold text-center text-gray-300'>
-                Sign Up <span className='text-blue-500'> ChatChat</span>
+                Sign Up <span className='text-yellow-900'> ChatChat</span>
             </h1>
 
             <form onSubmit={handleSubmit}>
@@ -81,7 +81,7 @@ const SignUp = () => {
 
                 <GenderCheckbox onCheckboxChange = {handleCheckboxChange} selectedGender={inputs.gender}/>
 
-                <Link to={"/login"} className='text-sm hover:underline hover:text-blue-600 mt-2 inline-block' href='#'>
+                <Link to={"/login"} className='text-sm hover:underline hover:text-yellow-950 mt-2 inline-block' href='#'>
                     Already have an account?
                 </Link>
 

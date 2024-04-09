@@ -17,10 +17,10 @@ const Login = () => {
 
   return (
     <div className='flex flex-col items-center justify-center min-w-96 mx-auto'>
-        <div className='w-full p-6 rounded-lg shadow-md bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-0'>
+        <div className='w-full p-6 rounded-lg shadow-md bg-gradient-to-b from-yellow-800/50 to-blue-400/30 bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-15'>
             <h1 className='text-3xl font-semibold text-center text-gray-300'>
                 Login
-                <span className='text-blue-500'> ChatChat</span>
+                <span className='text-yellow-900'> ChatChat</span>
             </h1>
 
             <form onSubmit={handleSubmit}>
@@ -36,7 +36,7 @@ const Login = () => {
 
                 <div>
                     <label className='label'>
-                        <span className='text-base label-text'>Password</span>
+                        <span className='text-base  label-text'>Password</span>
                     </label>
                     <input
                         type='password'
@@ -47,7 +47,7 @@ const Login = () => {
                     />
                 </div>
 
-                <Link to='/signup' className='text-sm hover:underline hover:text-blue-600 mt-2 inline-block'>
+                <Link to='/signup' className='text-sm hover:underline hover:text-yellow-950 mt-2 inline-block'>
                     {"Don't"} have an account?
                 </Link>
 
