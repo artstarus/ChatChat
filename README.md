@@ -7,7 +7,7 @@
 # What is ChatChat?
 ChatChat is a chat-based web app where users may send and receive real-time-updating messages.
 
-Try it out for yourself [HERE!](https://chatchat-k4gf.onrender.com/)
+Try it out for yourself [HERE!](https://chatchat-k4gf.onrender.com/) (This deployment may take a couple of minutes to load, due to limitations of the free-tier offered by Render. Apologies, and thank you for your understanding!)
 
 ### Login
 Users are greeted by a functioning Login page where they are prompted to enter a username and password. If an account has not yet been created, users may navigate to a Sign Up page by following the "Don't have an account?" link located just above the "Login" button. 
